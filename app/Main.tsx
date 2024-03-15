@@ -131,7 +131,7 @@ export default function Home({ posts }) {
       )} */}
 
       {/* Recent Projects Section */}
-      <div className="pt-4">
+      {/* <div className="pt-4">
         <h2 className="text-center text-3xl font-bold leading-8 tracking-tight">Recent Projects</h2>
         <div className="container py-6">
           <div className="flex flex-wrap">
@@ -158,13 +158,13 @@ export default function Home({ posts }) {
             All Projects &rarr;
           </Link>
         </div>
-      )}
+      )} */}
 
       {/* Call-to-Action to About Page */}
       <div className="mx-auto my-8 max-w-4xl rounded-lg border border-gray-200 bg-white px-4 py-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
         <div className="text-center">
           <h3 className="text-2xl font-bold leading-8 tracking-tight">
-            Want to know more about me?
+            Want to know more about us?
           </h3>
           <p className="mt-2 text-lg">
             Dive into my journey and discover the passion behind my projects.
@@ -173,7 +173,7 @@ export default function Home({ posts }) {
             href="/about"
             className="mt-4 inline-block rounded-lg bg-primary-500 px-6 py-2 text-white transition-colors duration-300 hover:bg-primary-600"
           >
-            About Me
+            About Us
           </Link>
         </div>
       </div>

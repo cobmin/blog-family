@@ -22,11 +22,11 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ['Roboto', ...fontFamily.sans], 
       },
       colors: {
-        primary: colors.sky,
-        gray: colors.zinc,
+        primary: colors.rose,
+        gray: colors.stone,
       },
       typography: ({ theme }) => ({
         DEFAULT: {

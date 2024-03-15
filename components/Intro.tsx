@@ -16,10 +16,14 @@ const Intro = () => {
         />
       </div>
       <h1 className="mx-auto mt-5 max-w-2xl text-3xl font-bold md:text-4xl">
-        Sharing insights and experiences
+        Welcome to the Huber's Household
       </h1>
       <p className="mt-4 text-xl">
-        Hoping to help others by sharing my interests. Check out my latest stuff below 👇
+        Where our five cats lead you through tales of whiskers, wine, and whimsy. In our garden of
+        everyday wonders, every purr and playful leap is a story. From the black cat's curious
+        adventures to the dark brown's peaceful slumbers among the blooms, we capture the essence of
+        life with our feline friends. Join us for a journey filled with laughter, tranquility, and
+        the occasional clink of glasses. Discover the joy of living life one paw at a time.
       </p>
     </section>
   )

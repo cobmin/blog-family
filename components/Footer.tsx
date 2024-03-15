@@ -24,7 +24,7 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/cobmin/blog-cobmin">Website Code</Link>
+          <Link href="https://github.com/cobmin/blog-family">Website Code</Link>
         </div>
       </div>
     </footer>
