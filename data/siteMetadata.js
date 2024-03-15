@@ -1,12 +1,12 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: "Huber's Household",
-  author: 'Ellen Huber',
+  author: 'Hubers',
   headerTitle: "Huber's Household",
   description: "Explore life through our five cats' eyes: whimsy, wine, and whiskers. Join their tales from playful leaps to serene slumbers, a journey of laughter, tranquility, and shared moments. Live joyfully, one paw at a time.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://cobmin.com',
+  siteUrl: 'https://blog-family.vercel.app',
   siteRepo: 'https://github.com/cobmin/blog-family',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
@@ -18,7 +18,7 @@ const siteMetadata = {
   // youtube: 'https://www.youtube.com/@cobmin',
   // linkedin: 'https://www.linkedin.com/in/jacob-huber/',
   // threads: 'https://www.threads.net/@jacobhuber.eth',
-  instagram: 'https://www.instagram.com/jacobhuber.eth/',
+  instagram: 'https://www.instagram.com/hubercatsrus/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
