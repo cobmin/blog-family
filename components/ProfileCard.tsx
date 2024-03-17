@@ -10,16 +10,13 @@ interface ProfileCardProps {
 
 const ProfileCard: React.FC<ProfileCardProps> = ({ name, description, imgSrc, altText }) => {
   return (
-    <div className="mb-4 flex items-center space-x-4">
-      <Image
-        src={imgSrc}
-        alt={altText}
-        width={160}
-        height={160}
-        className="rounded-full object-cover"
-      />
-      <div>
-        <strong>{name}:</strong> {description}
+    <div className="mb-4 flex flex-col items-center space-y-4 text-center md:flex-row md:space-x-6 md:space-y-0 md:text-left">
+      <div className="relative h-40 w-40 flex-shrink-0 overflow-hidden rounded-lg md:h-40 md:w-40">
+        <Image src={imgSrc} alt={altText} layout="fill" className="rounded-lg object-cover" />
+      </div>
+      <div className="flex flex-col justify-center">
+        <strong>{name}:</strong>
+        <span>{description}</span>
       </div>
     </div>
   )

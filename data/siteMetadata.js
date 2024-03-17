@@ -3,7 +3,8 @@ const siteMetadata = {
   title: "Huber's Household",
   author: 'Hubers',
   headerTitle: "Huber's Household",
-  description: "Explore life through our five cats' eyes: whimsy, wine, and whiskers. Join their tales from playful leaps to serene slumbers, a journey of laughter, tranquility, and shared moments. Live joyfully, one paw at a time.",
+  description:
+    "Explore life through our five cats' eyes: whimsy, wine, and whiskers. Join their tales from playful leaps to serene slumbers, a journey of laughter, tranquility, and shared moments. Live joyfully, one paw at a time.",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog-family.vercel.app',
