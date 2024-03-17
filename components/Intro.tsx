@@ -7,7 +7,7 @@ const Intro = () => {
         {' '}
         <Image
           src="/static/images/twitter-card.png"
-          width={1000} 
+          width={1000}
           height={500}
           className="rounded-md"
           alt="A welcoming image representing the theme of the blog"

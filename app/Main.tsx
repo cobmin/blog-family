@@ -5,6 +5,7 @@ import NewsletterForm from 'pliny/ui/NewsletterForm'
 import Intro from '../components/Intro'
 import Card from '@/components/Card' // Assuming Card is properly exported from '@/components/Card'
 import projectsData from '@/data/projectsData'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 6
 
@@ -32,7 +33,7 @@ export default function Home({ posts }) {
               {/* Image container should fill the height */}
               <div className="h-full">
                 {/* Image should cover the available space */}
-                <img src={images[0]} alt={title} className="h-full w-full object-cover" />
+                <Image src={images[0]} alt={title} className="h-full w-full object-cover" />
               </div>
             </Link>
             <div className="flex w-full flex-col justify-between p-4">
@@ -61,7 +62,7 @@ export default function Home({ posts }) {
               <div className="flex h-full cursor-pointer flex-col overflow-hidden rounded-lg border border-gray-200 shadow-lg dark:border-gray-700">
                 {images && (
                   <div className="h-48 overflow-hidden">
-                    <img src={images[0]} alt={title} className="h-full w-full object-cover" />
+                    <Image src={images[0]} alt={title} className="h-full w-full object-cover" />
                   </div>
                 )}
                 <article className="flex flex-grow flex-col p-4">
@@ -86,7 +87,7 @@ export default function Home({ posts }) {
             <Link href={`/blog/${slug}`} key={slug} passHref>
               <div className="flex cursor-pointer flex-col overflow-hidden rounded-lg border border-gray-200 shadow-lg dark:border-gray-700 md:h-full md:flex-row">
                 <div className="relative w-full md:h-full md:w-48 md:flex-none">
-                  <img
+                  <Image
                     src={images[0]}
                     alt={title}
                     className="absolute inset-0 h-full w-full object-cover"
